@@ -1,0 +1,105 @@
+#header {
+    text-align:center;
+    position:absolute;
+    left:0px;
+    right:0px;
+    top:100px;
+    margin:auto;
+    width:30vw;
+    border-bottom:1px solid #CCC;
+    cursor:pointer;
+}
+
+#center {
+    position:absolute;
+    left:0px;
+    right:0px;
+    top:0px;
+    bottom:0px;
+    margin:auto;
+    text-align:center;
+    width:30vw;
+    height:30vh;
+    transition:left 0.2s, bottom 0.2s;
+}
+
+#ava {
+    height:100%;
+    cursor:pointer;
+    transition:height 0.2s;
+}
+
+.buttons {
+    position:absolute;
+    text-align:center;
+    margin:auto;
+    cursor:pointer;
+    height:25px;
+    width:50px;
+}
+
+#up, #down {
+    left:0px;
+    right:0px;
+}
+
+#right, #left {
+    bottom:0px;
+    top:0px;
+}
+
+#up {
+    top:-50px;
+}
+
+#right {
+    right:-50px;
+}
+
+#down {
+    bottom:-70px;
+}
+
+#left {
+    left:-50px;
+}
+
+#menu {
+    position:fixed;
+    top:0px;
+    right:-75px;
+    margin:auto;
+    width:75px;
+}
+
+#menubutt {
+    position:absolute;
+    left:-50px;
+    width:50px;
+    text-align:center;
+}
+
+#avatarbutts {
+    cursor:pointer;
+}
+
+.images {
+    width:100%;
+    cursor:pointer;
+}
+
+.extraimg {
+    position:absolute;
+    display:none;
+    bottom:0px;
+    right:100px;
+    height:20%;
+    transition:right 0.2s, bottom 0.2s, height 0.2s ; 
+}
+
+.extrabutts {
+    text-align:center;
+    margin:auto;
+    cursor:pointer;
+    width:75px;
+}
